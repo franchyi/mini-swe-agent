@@ -8,6 +8,7 @@ from minisweagent import Environment
 _ENVIRONMENT_MAPPING = {
     "docker": "minisweagent.environments.docker.DockerEnvironment",
     "singularity": "minisweagent.environments.singularity.SingularityEnvironment",
+    "enroot": "minisweagent.environments.enroot.EnrootEnvironment",
     "local": "minisweagent.environments.local.LocalEnvironment",
     "swerex_docker": "minisweagent.environments.extra.swerex_docker.SwerexDockerEnvironment",
     "swerex_modal": "minisweagent.environments.extra.swerex_modal.SwerexModalEnvironment",

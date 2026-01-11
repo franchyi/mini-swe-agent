@@ -20,6 +20,8 @@ You can specify the environment class with the `--environment-class` flag or the
 
 * **`singularity`** ([`SingularityEnvironment`](../reference/environments/singularity.md)) - Executes commands in Singularity/Apptainer containers. Good alternative to Docker in HPC environments where Docker is not available.
 
+* **`enroot`** ([`EnrootEnvironment`](../reference/environments/enroot.md)) - Executes commands in Enroot containers. Designed for HPC environments, enroot is NVIDIA's container runtime that provides unprivileged container execution without requiring root access.
+
 On top, there are a few more specialized environment classes that you can use:
 
 * **`swerex_docker`** ([`SwerexDockerEnvironment`](../reference/environments/swerex_docker.md)) - Docker execution through [SWE-ReX](https://github.com/swe-agent/swe-rex)
